@@ -1,9 +1,24 @@
 html, body {
-	margin: 0;
-	height: 100%;
+	margin: 5%;
+	font-size: 18px;
 }
 
 body {
 	color: #342D33;
 	font-family: "Rubik", sans-serif;
+}
+
+.container {
+	height: 60%;
+}
+
+.social, .social a {
+	color: #342D33;
+	transition: color 0.2s;
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.social a:hover {
+	color: #0074e1;
 }
